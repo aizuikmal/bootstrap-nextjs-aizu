@@ -1,2 +1,11 @@
 # bootstrap-nextjs-aizu
-Bootstrap for NextJS, Tailwind, Auth0
+Starter code for web application.
+
+# tech stack
+NextJS
+Tailwind
+Auth0
+
+# pages
+1. login
+2. 
