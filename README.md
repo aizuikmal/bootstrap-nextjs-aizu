@@ -4,7 +4,7 @@ Starter code for web application.
 # tech stack
 - NextJS
 - Tailwind
-- Auth0
+- Next Auth (npm i next-auth@beta)
 
 # prepared pages
 - login (local form & google auth)
