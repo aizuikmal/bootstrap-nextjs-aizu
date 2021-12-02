@@ -28,3 +28,4 @@ NEXTAUTH_URL=http://localhost:3000
 GOOGLE_ID=xxxx.apps.googleusercontent.com
 GOOGLE_SECRET=yyyy
 ```
+App have example .env: mk.my
