@@ -24,6 +24,7 @@ Starter code for web application.
 
 ## Create .env
 ```
-GOOGLE_ID=yyy
-GOOGLE_SECRET=xxx
+NEXTAUTH_URL=http://localhost:3000
+GOOGLE_ID=xxxx.apps.googleusercontent.com
+GOOGLE_SECRET=yyyy
 ```
