@@ -22,3 +22,7 @@ Starter code for web application.
 - sidebar
 - context_user
 
+## Create .env
+GOOGLE_ID=yyy
+GOOGLE_SECRET=xxx
+
