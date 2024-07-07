@@ -1,14 +1,16 @@
 import { useRouter } from 'next/router'
-import { signIn } from 'next-auth/react'
+import { signIn, useSession } from 'next-auth/react'
 import { FcGoogle } from 'react-icons/fc'
 import { FiDatabase } from 'react-icons/fi'
 const Login = () => {
+  const { data: session } = useSession()
   const router = useRouter()
   const doLoginLocal = () => {
     router.push('/dashboard')
   }
 
   return (
+    session ? <div>You've already logged in</div> : 
     <>
       <div className='min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8'>
         <div className='sm:mx-auto sm:w-full sm:max-w-md flex flex-col items-center '>
